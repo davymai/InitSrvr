@@ -2,7 +2,7 @@
 # **********************************************************
 # * Author        : 大威(Davy)
 # * Email         : i@davymai.com
-# * Last modified : 2023-11-13 16:39
+# * Last modified : 2024-01-11 16:30
 # * Filename      : InitSrvr.sh
 # * Description   : 系统初始化和基础软件安装，适用于Ubuntu、Rocky 8和9以及CentOS 7。
 # **********************************************************
