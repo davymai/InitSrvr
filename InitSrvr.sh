@@ -886,11 +886,11 @@ net.ipv4.tcp_max_tw_buckets = 36000
 net.core.somaxconn = 65535
 net.core.netdev_max_backlog = 262144
 net.ipv4.tcp_max_orphans = 262144
-net.netfilter.nf_conntrack_max = 25000000
-net.netfilter.nf_conntrack_tcp_timeout_established = 180
-net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
-net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
-net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
+#net.netfilter.nf_conntrack_max = 25000000
+#net.netfilter.nf_conntrack_tcp_timeout_established = 180
+#net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
+#net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
+#net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
 # 开启反向路径过滤(增强网络安全)
 net.ipv4.conf.all.rp_filter = 1
 # IP 转发, 默认关闭
