@@ -172,9 +172,13 @@ update_source_for_china() {
       if [[ "$OS" == **"Rocky"** ]]; then
         if [ "$OS_VER" == *"9"* ]; then
           # Rocky Linux 9
+          echo "export LC_ALL=en_US.UTF8" >> /etc/profile
+          source /etc/profile
           config_files=$(sudo find /etc/yum.repos.d/ -maxdepth 1 -type f -name 'rocky*.repo')
         elif [ "$OS_VER" == *"8"* ]; then
           # Rocky Linux 8
+          echo "export LC_ALL=en_US.UTF8" >> /etc/profile
+          source /etc/profile
           config_files=$(sudo find /etc/yum.repos.d/ -maxdepth 1 -type f -name 'Rocky*.repo')
         fi
 
